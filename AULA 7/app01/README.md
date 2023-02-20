@@ -1,17 +1,64 @@
-## :books: AULA 02
+## :books: AULA 07
 
-Instalações básicas para iniciar o desenvolvimento.
-
-[![NODEJS](https://skills.thijs.gg/icons?i=nodejs)](https://nodejs.org/en/)
-[![VSCODE](https://skills.thijs.gg/icons?i=vscode)](https://code.visualstudio.com)
-
+Enviar funções para os componentes.
 
 ## :bookmark: NOTAS
-### `npx create-react-app <nome>`
-Cria o ambiente do REACT dentro da pasta (que terá o mesmo nome setado na tag <nome>
 
-### `code .`
-Abre o VSCode direto na pasta que está aberta no CMD.
+**Criando funções para enviar ao componente Dados.js**
+###### Corpo.js
+```javascript
+import React from 'react'
+import Dados from './Dados'
 
-### `npm start`
-Roda o app no modo de desenvolvimento.
+export default function Corpo(){
+
+    const cnl=()=>{
+        return 'CFB Cursos'
+    }
+
+    const yt=()=>{
+        return 'youtube.com/cfbcursos'
+    }
+
+    const curso = 'React.js'
+
+    const somar=(v1,v2)=>{
+        return v1+v2;
+    }
+
+    return( 
+        <section>
+            <Dados 
+                canal={cnl}
+                youtube={yt}
+                curso={curso}
+                somar={somar}
+            /> 
+        </section>
+    );
+}
+```
+
+<br/>
+
+
+**Criando utilizando a função com variáveis declaradas:**
+###### Dados.js
+```javascript
+import React from "react";
+
+export default function Dados(props){
+
+    let n1 = 10
+    let n2 = 20
+
+    return(
+        <section>
+            <p>Canal: {props.canal()}</p>
+            <p>YouTube: {props.youtube()}</p>
+            <p>Curso: {props.curso}</p>
+            <p>{'A soma de ' + n1 + ' e ' + n2 + ' é igual a ' + props.somar(n1,n2)}</p>
+        </section>
+    );
+}
+```
