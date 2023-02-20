@@ -1,17 +1,72 @@
-## :books: AULA 02
+## :books: AULA 06
 
-Instalações básicas para iniciar o desenvolvimento.
-
-[![NODEJS](https://skills.thijs.gg/icons?i=nodejs)](https://nodejs.org/en/)
-[![VSCODE](https://skills.thijs.gg/icons?i=vscode)](https://code.visualstudio.com)
-
+Enviar propriedades para os componentes com PROPS.
 
 ## :bookmark: NOTAS
-### `npx create-react-app <nome>`
-Cria o ambiente do REACT dentro da pasta (que terá o mesmo nome setado na tag <nome>
+**Criando componente Dados.js que receberá as propriedades:**
 
-### `code .`
-Abre o VSCode direto na pasta que está aberta no CMD.
+###### Dados.js
+```javascript
+import React from "react";
 
-### `npm start`
-Roda o app no modo de desenvolvimento.
+export default function Dados(props){
+    return(
+        <section>
+            <p>Canal: {props.canal}</p>
+            <p>YouTube: {props.youtube}</p>
+            <p>Curso: {props.curso}</p>
+        </section>
+    );
+}
+```
+
+<br/>
+
+**Utilizando o componente no arquivo Corpo.js:**
+
+###### Corpo.js
+```javascript
+import React from 'react'
+import Dados from './Dados'
+
+export default function Corpo(){
+    return(
+        <section>
+            <Dados canal='CFB Cursos' youtube='youtube.com/cfbcursos' curso='React.js'
+            /> 
+        </section>
+    );
+}
+```
+
+#### :warning: Importante!
+**Atributos deverão sempre ter o mesmo nome ao enviar e receber em props.**
+
+
+<br/>
+
+## :thinking: Também dá pra fazer assim...
+**Utilizando propriedades:**
+
+###### Corpo.js
+```javascript
+import React from 'react'
+import Dados from './Dados'
+
+export default function Corpo(){
+
+    const cnl='CFB Cursos'
+    const yt='youtube.com/cfbcursos'
+    const curso='React.js'
+
+    return(
+        <section>
+            <Dados 
+                canal={cnl}
+                youtube={yt}
+                curso={curso}
+            /> 
+        </section>
+    );
+}
+```
