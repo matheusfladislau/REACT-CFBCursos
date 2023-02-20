@@ -7,7 +7,7 @@ Como criar componentes em React.
 **Criando componentes para serem utilizados no APP.js:** 
 ###### Caminho: `app01/src/componentes/`
 
-> Header.js
+###### Header.js
 
 ```javascript 
 import React from 'react'
@@ -24,7 +24,7 @@ export default function Header() {
 ```
 <br/>
 
-> Corpo.js
+###### Corpo.js
 
 ```javascript 
 import React from 'react'
@@ -45,7 +45,7 @@ export default function Corpo(){
 **Utilizando componentes no APP.js:**
 
 
-> APP.js
+###### APP.js
 
 ```javascript 
 import React from 'react'
