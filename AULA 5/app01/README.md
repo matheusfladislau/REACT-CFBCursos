@@ -1,17 +1,64 @@
-## :books: AULA 02
+## :books: AULA 05
 
-Instalações básicas para iniciar o desenvolvimento.
-
-[![NODEJS](https://skills.thijs.gg/icons?i=nodejs)](https://nodejs.org/en/)
-[![VSCODE](https://skills.thijs.gg/icons?i=vscode)](https://code.visualstudio.com)
-
+Como criar componentes em React.
 
 ## :bookmark: NOTAS
-### `npx create-react-app <nome>`
-Cria o ambiente do REACT dentro da pasta (que terá o mesmo nome setado na tag <nome>
 
-### `code .`
-Abre o VSCode direto na pasta que está aberta no CMD.
+**Criando componentes para serem utilizados no APP.js:** 
+###### Caminho: `app01/src/componentes/`
 
-### `npm start`
-Roda o app no modo de desenvolvimento.
+> Header.js
+
+```javascript 
+import React from 'react'
+import Logo from './imgs/logo.png'
+
+export default function Header() {
+  return (
+    <header>
+        <img src={Logo}></img>
+        <h1>CFB Cursos</h1>
+    </header>
+  );
+}
+```
+<br/>
+
+> Corpo.js
+
+```javascript 
+import React from 'react'
+
+export default function Corpo(){
+    return(
+        <section>
+            <h2>Curso de React</h2>
+            <p>Se inscreva em nosso canal!</p>
+            <p>Ative o sininho e clica no joinha xdd</p>
+        </section>
+    );
+}
+```
+
+<br/>
+
+**Utilizando componentes no APP.js:**
+
+
+> APP.js
+
+```javascript 
+import React from 'react'
+import Header from './componentes/Header'
+import Corpo from './componentes/Corpo'
+
+export default function App() {
+  return (
+    <>
+      <Header/>
+      <Corpo/> 
+    </>
+  );
+}
+
+```
