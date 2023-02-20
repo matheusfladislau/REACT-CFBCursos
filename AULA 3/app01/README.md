@@ -1,17 +1,35 @@
-## :books: AULA 02
+## :books: AULA 03
 
-Instalações básicas para iniciar o desenvolvimento.
-
-[![NODEJS](https://skills.thijs.gg/icons?i=nodejs)](https://nodejs.org/en/)
-[![VSCODE](https://skills.thijs.gg/icons?i=vscode)](https://code.visualstudio.com)
-
+Entendendo a estrutura básica de um App React.
 
 ## :bookmark: NOTAS
-### `npx create-react-app <nome>`
-Cria o ambiente do REACT dentro da pasta (que terá o mesmo nome setado na tag <nome>
+### `node_modules`
+Módulos instalados no aplicativo
 
-### `code .`
-Abre o VSCode direto na pasta que está aberta no CMD.
+### `public`
+Tudo que pode ser acessado pelo aplicativo (link, img, etc).
 
-### `npm start`
-Roda o app no modo de desenvolvimento.
+### `src`
+Arquivos que compõem o aplicativo.
+
+<br />
+
+###### APP.js
+```javascript 
+{
+  import React from 'react' // importar biblioteca do React
+  export default function App() {
+    return (
+      <>
+        <p>CFB Cursos</p>
+        <br/>
+        <p>Curso de react</p>
+      </>
+    );
+}
+
+//Também poderia escrever (necessário remover na 3 linha):
+//export default App();
+```
+
+  **Boa prática:** criar função com nome de arquivo.
