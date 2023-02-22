@@ -25,4 +25,4 @@ O link para download redireciona para o [DownGit](https://minhaskamal.github.io/
 | 05 | Como criar componentes em React | [Download 05](https://github.com/matheusfladislau/REACT-CFBCursos/tree/master/AULA%205/app01) |
 | 06 | Enviar propriedades para os componentes com PROPS | [Download 06](https://github.com/matheusfladislau/REACT-CFBCursos/tree/master/AULA%206/app01) |
 | 07 | Enviar funções para os componentes | [Download 07](https://github.com/matheusfladislau/REACT-CFBCursos/tree/master/AULA%207/app01) |
-| 08 | Usando CSS em React | [Download 07](https://github.com/matheusfladislau/REACT-CFBCursos/tree/master/AULA%208/app01) |
+| 08 | Usando CSS em React | [Download 08](https://github.com/matheusfladislau/REACT-CFBCursos/tree/master/AULA%208/app01) |
