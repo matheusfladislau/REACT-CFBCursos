@@ -21,8 +21,8 @@ O link para download redireciona para o [DownGit](https://minhaskamal.github.io/
 | --- | --- | --- |
 | 02 | Instalação do Node e primeiro App criado diretamente pelo PC | [Download 02](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/matheusfladislau/REACT-CFBCursos/tree/master/AULA%202) |
 | 03 | Entendendo a estrutura básica de um App React | [Download 03](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/matheusfladislau/REACT-CFBCursos/tree/master/AULA%203/app01) |
-| 04 | Expressões em JSX. Inserção de imagens no App. Constantes e Variáveis | [Download 04](https://github.com/matheusfladislau/REACT-CFBCursos/tree/master/AULA%204/app01) |
-| 05 | Como criar componentes em React | [Download 05](https://github.com/matheusfladislau/REACT-CFBCursos/tree/master/AULA%205/app01) |
-| 06 | Enviar propriedades para os componentes com PROPS | [Download 06](https://github.com/matheusfladislau/REACT-CFBCursos/tree/master/AULA%206/app01) |
-| 07 | Enviar funções para os componentes | [Download 07](https://github.com/matheusfladislau/REACT-CFBCursos/tree/master/AULA%207/app01) |
-| 08 | Usando CSS em React | [Download 08](https://github.com/matheusfladislau/REACT-CFBCursos/tree/master/AULA%208/app01) |
+| 04 | Expressões em JSX. Inserção de imagens no App. Constantes e Variáveis | [Download 04](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/matheusfladislau/REACT-CFBCursos/tree/master/AULA%204/app01) |
+| 05 | Como criar componentes em React | [Download 05](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/matheusfladislau/REACT-CFBCursos/tree/master/AULA%205/app01) |
+| 06 | Enviar propriedades para os componentes com PROPS | [Download 06](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/matheusfladislau/REACT-CFBCursos/tree/master/AULA%206/app01) |
+| 07 | Enviar funções para os componentes | [Download 07](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/matheusfladislau/REACT-CFBCursos/tree/master/AULA%207/app01) |
+| 08 | Usando CSS em React | [Download 08](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/matheusfladislau/REACT-CFBCursos/tree/master/AULA%208/app01) |
