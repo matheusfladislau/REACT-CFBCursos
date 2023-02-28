@@ -1,6 +1,9 @@
 ## :books: REACT - CFBCursos
 Várias atividades nos vídeos do [curso](https://www.youtube.com/playlist?list=PLx4x_zx8csUh752BVDGZkxYpY9lS40fyC) de REACT da CFBCursos.
 
+<img src="https://img.shields.io/github/last-commit/matheusfladislau/REACT-CFBCursos?style=for-the-badge">
+
+
 #### :computer: Tecnologias:
 <div>
   <img src="https://skills.thijs.gg/icons?i=html">
